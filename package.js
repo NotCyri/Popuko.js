@@ -19,17 +19,16 @@ const req = async module => {
 }
 
 const main = async () => {
-  const request     = await req('request')
-  const ms      = await req('ms')
-  const fs      = await req('fs')
-  const mathjs  = await req('mathjs')
-  const figlet  = await req('figlet')
-  const snekfetch   = await req('snekfetch')
-  const customtranslate     = await req('custom-translate')
-  const weatherjs    = await req('weather-js')
-  const google    = await req('google')
+  const request         = await req('request')
+  const ms              = await req('ms')
+  const fs              = await req('fs')
+  const mathjs          = await req('mathjs')
+  const figlet          = await req('figlet')
+  const snekfetch       = await req('snekfetch')
+  const customtranslate = await req('custom-translate')
+  const weatherjs       = await req('weather-js')
+  const google          = await req('google')
 
-  // The rest of the app's code goes here
 }
 
 main()
