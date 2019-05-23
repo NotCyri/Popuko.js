@@ -28,6 +28,7 @@ const main = async () => {
   const customtranslate = await req('custom-translate')
   const weatherjs       = await req('weather-js')
   const google          = await req('google')
+  const google          = await req('request-promise-native')
 
 }
 
